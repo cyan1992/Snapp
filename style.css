@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: green;
+  background-color: white;
   color: #fff;
 }
 
@@ -45,12 +45,13 @@ li,
 a {
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: #3f3f3f;
 }
 
 .nav {
   display: flex;
   gap: 2rem;
+  height: 96px;
 }
 
 .maincat {
@@ -69,8 +70,9 @@ a {
   position: absolute;
   top: 3.45rem;
   left: -5%;
-  background-color: gray;
+  background-color: #f2f2f2;
   width: 110%;
+  border-radius: 15px;
 }
 
 .subcat li {
@@ -89,4 +91,19 @@ a {
 .html:hover .html-chevron,
 .maincat:hover .maincat-chevron {
   transform: rotate(-180deg);
+}
+
+.BlogTitle, .OrgPanelTitle, .DriverTitle, .RegisterTitle {
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+}
+
+header {
+  width: auto;
+  height: 96px;
+}
+
+.JobLink {
+  color: #00D170;
 }
