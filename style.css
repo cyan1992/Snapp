@@ -111,6 +111,6 @@ header {
   height: 96px;
 }
 
-.JobLink {
+.subcat li a:hover {
   color: #00D170;
 }
