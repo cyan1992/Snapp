@@ -1,3 +1,8 @@
+/* Var Color Base Define For All Elements */
+:root {
+  --green-color:#00D170;
+}
+
 /* Tarif Font Face */
 @font-face {
   font-family: "IRANSansWeb";
@@ -116,5 +121,5 @@ header {
 }
 
 .subcat li a:hover {
-  color: #00D170;
+  color: var(--green-color)
 }
