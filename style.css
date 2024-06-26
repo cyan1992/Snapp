@@ -11,3 +11,93 @@
 * {
     font-family: 'IRANSansWeb';
 }
+
+*, 
+*::before, 
+*::after { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+.logo {
+    letter-spacing: 1px;
+}
+
+.nav { 
+	display: flex; 
+	justify-content: space-around; 
+	align-items: center; 
+	background-color: green; 
+	color: #fff; 
+}
+
+i {
+    transition: transform 0.5s ease;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.maincat {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.ulnav { 
+	display: flex; 
+	gap: 2rem; 
+} 
+
+
+
+.subcat {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 3.45rem;
+    left: -5%;
+    background-color: gray;
+    width: 110%;
+}
+
+.subcat li {
+    padding: 0.75rem;
+}
+
+.subcat:hover .subcat{
+    display: flex;
+}
+
+.maincat:hover .subcat { 
+	display: flex; 
+} 
+/* .subcat {
+    top: 5rem;
+    left: 9rem;
+} */
+
+/* .subcat li:nth-child(3):hover {
+    display: flex;
+} */
+
+.subcat:hover i {
+    transform: rotate(-90deg);
+}
+
+.html:hover .html-chevron, 
+.maincat:hover .maincat-chevron { 
+	transform: rotate(-180deg); 
+}
+
+
+
+
