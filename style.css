@@ -133,7 +133,7 @@ header {
   height: auto;
 }
 
-#mobile {
+.mobile {
   border-top-style: none;
   border-right-style: none;
   border-left-style: none;
@@ -143,6 +143,12 @@ header {
   background-color: transparent;
   color: var(--white-color);
   font-family: "IRANSansWeb";
+  
+  /* Set Background dot For input */
+  padding-left: 25px;
+  background: url("assets/svg/dot.svg") no-repeat left;
+  background-size: 7px;
+
   /* Baray inke bad click border nandaze*/
   outline: none;
 }
