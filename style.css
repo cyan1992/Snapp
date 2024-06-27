@@ -3,15 +3,15 @@
   --green-color:#00D170;
   --white-color: #fff;
   --text-color: #4a4a4a;
+  --bg-color: #21AA58;
 }
 
 /* Tarif Font Face */
 @font-face {
   font-family: "IRANSansWeb";
-  src: url("assets/fonts/IRANSansWeb_Light.ttf") format(ttf),
-    url("assets/fonts/IRANSansWeb_Medium.ttf") format(ttf),
-    url("assets/fonts/IRANSansWeb_Bold.ttf") format(ttf),
-    url("assets/fonts/IRANSansWeb_UltraLight.ttf") format(ttf);
+  src: url("assets/fonts/IRANSansWeb_Light.woff") format(woff),
+    url("assets/fonts/IRANSansWeb_Medium.woff") format(woff),
+    url("assets/fonts/IRANSansWeb_Bold.woff") format(woff);
   font-weight: normal;
   font-style: normal;
 
@@ -23,7 +23,9 @@
 /* Moarefi Font Face Be Body */
 * {
   font-family: "IRANSansWeb";
+  direction: rtl;
 }
+
 
 /* Baray Hazf Hashiyeha */
 *,
@@ -124,4 +126,73 @@ header {
 
 .subcat li a:hover {
   color: var(--green-color)
+}
+
+.introimage {
+  width: 50%;
+  height: auto;
+}
+
+#mobile {
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: solid ;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--white-color);
+  background-color: transparent;
+  color: var(--white-color);
+  font-family: "IRANSansWeb";
+  /* Baray inke bad click border nandaze*/
+  outline: none;
+}
+
+.headmain {
+  background-color: var(--bg-color);
+  display: flex;
+}
+
+.headtitle, .ptitle{
+  color: var(--white-color);
+  padding: 20px;
+}
+
+.introtext {
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.loginwebbtn, .formcategory, .linkbtn, .loginwebbtn{
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.linkbtn {
+  border: none;
+  color: var(--bg-color);
+  background-color: var(--white-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.loginwebbtn {
+  border: solid;
+  border-width: 1px;
+  border-color: var(--white-color);
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  padding: 5px 20px;
+}
+/* img {
+  direction: ltr;
+  image-orientation: from-image;
+} */
+
+input::-webkit-input-placeholder{
+  color: var(--white-color);
+}
+input:-moz-placeholder {
+  color: var(--white-color);
 }
