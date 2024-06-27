@@ -1,6 +1,8 @@
 /* Var Color Base Define For All Elements */
 :root {
   --green-color:#00D170;
+  --white-color: #f2f2f2;
+  --text-color: #4a4a4a;
 }
 
 /* Tarif Font Face */
@@ -41,8 +43,8 @@
   justify-content: start;
   align-items: center;
   align-content: center;
-  background-color: white;
-  color: #fff;
+  background-color: var(--white-color);
+  color: var(--white-color);
   width: 90%;
   height: auto;
   margin: auto;
@@ -59,7 +61,7 @@ li,
 a {
   text-decoration: none;
   list-style-type: none;
-  color: #4a4a4a;
+  color:var(--text-color);
   font-size: 0.95rem;
   font-weight: 300;
 }
@@ -86,7 +88,7 @@ a {
   position: absolute;
   top: 3.45rem;
   left: -5%;
-  background-color: #f2f2f2;
+  background-color: var(--white-color);
   width: 110%;
   border-radius: 15px;
 }
@@ -99,9 +101,9 @@ a {
   display: flex;
 }
 
-.subcat:hover i {
+/* .subcat:hover i {
   transform: rotate(-90deg);
-}
+} */
 
 /* Charkhesh Arrow */
 .html:hover .html-chevron,
