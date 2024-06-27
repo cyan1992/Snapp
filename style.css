@@ -143,9 +143,6 @@ header {
   background-color: transparent;
   color: var(--white-color);
   font-family: "IRANSansWeb";
-  
-  
-
   /* Baray inke bad click border nandaze*/
   outline: none;
 }
@@ -188,7 +185,12 @@ margin-right: 20px;
   background-color: var(--white-color);
   padding: 5px 15px;
   border-radius: 5px;
-  font-weight: bold;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.linkbtn:hover {
+  cursor: pointer;
 }
 
 .loginwebbtn {
@@ -199,11 +201,12 @@ margin-right: 20px;
   background-color: var(--bg-color);
   color: var(--white-color);
   padding: 5px 20px;
+  font-size: 1em;
 }
-/* img {
-  direction: ltr;
-  image-orientation: from-image;
-} */
+
+.loginwebbtn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
 input::-webkit-input-placeholder{
   color: var(--white-color);
