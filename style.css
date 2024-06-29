@@ -100,10 +100,6 @@ a {
   display: flex;
 }
 
-/* .subcat:hover i {
-  transform: rotate(-90deg);
-} */
-
 /* Charkhesh Arrow */
 .html:hover .html-chevron,
 .maincat:hover .maincat-chevron {
@@ -236,4 +232,39 @@ input:-moz-placeholder {
   height: auto;
   padding: 5px 20px;
   cursor: pointer;
+}
+
+.item {
+  display: flex;
+}
+
+.squreicon {
+  width: 62px;
+  height: 62px;
+  /* padding: 5px; */
+}
+
+.itemdes, .titleitem{
+  /* padding: 5px; */
+  color: var(--text-color);
+}
+
+.itemdes{
+  opacity: 0.7;
+}
+
+.titleitem {
+  font-weight: bold;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+  margin:auto;
+  justify-content: center;
+}
+
+.grid-item {
+  padding: 30px;
 }
