@@ -6,18 +6,38 @@
   --bg-color: #21aa58;
 }
 
+    
 /* Tarif Font Face */
 @font-face {
   font-family: "IRANSansWeb";
-  src: url("assets/fonts/IRANSansWeb_Light.woff") format(woff),
-    url("assets/fonts/IRANSansWeb_Medium.woff") format(woff),
-    url("assets/fonts/IRANSansWeb_Bold.woff") format(woff);
+  src: url("assets/fonts/IRANSansWeb_Light.woff") format(woff);
   font-weight: normal;
   font-style: normal;
 
   /* baray waghti ke mororgar font ra load nakonad yek font jaygozin mororgar namayesh midahad */
   font-display: swap;
 }
+
+@font-face {
+  font-family: "IRANSansWebMedium";
+  src: url("assets/fonts/IRANSansWeb_Medium.woff") format(woff);
+  font-weight: normal;
+  font-style: normal;
+
+  /* baray waghti ke mororgar font ra load nakonad yek font jaygozin mororgar namayesh midahad */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANSansWebBold";
+  src: url("assets/fonts/IRANSansWeb_Bold.woff") format(woff);
+  font-weight: normal;
+  font-style: normal;
+
+  /* baray waghti ke mororgar font ra load nakonad yek font jaygozin mororgar namayesh midahad */
+  font-display: swap;
+}
+
 
 /* Moarefi Font Face Be Body */
 * {
@@ -267,4 +287,11 @@ input:-moz-placeholder {
 
 .grid-item {
   padding: 30px;
+}
+
+.gridtitle {
+  font-family: 'IRANSansWebBold';
+  text-align: center;
+  font-weight: bold;
+  color: var(--text-color);
 }
