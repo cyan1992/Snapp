@@ -294,4 +294,5 @@ input:-moz-placeholder {
   text-align: center;
   font-weight: bold;
   color: var(--text-color);
+  padding:  15px;
 }
