@@ -258,6 +258,7 @@ input:-moz-placeholder {
   padding: 12px;
   background-color: var(--white-color);
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .squreicon {
@@ -306,3 +307,33 @@ input:-moz-placeholder {
   background-color: var(--gray-color);
   padding: 15px;
 }
+
+/* Slider Codes Start */
+.content {
+  margin: 10% auto;
+  padding: 0;
+  border-radius: 15px;
+  width: 1024px;
+  height: 293px;
+  overflow: hidden;
+  box-shadow: 20px hsl(0, 0%, 3%);
+  z-index: -1;
+}
+
+
+
+.slider {
+  width: 1024px;
+  -webkit-animation-name: slider;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doticon {
+  color: var(--text-color);
+}
+
