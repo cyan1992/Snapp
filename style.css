@@ -322,7 +322,7 @@ input:-moz-placeholder {
 
 
 
-.slider {
+/* .slider {
   width: 1024px;
   -webkit-animation-name: slider;
   -webkit-animation-duration: 10s;
@@ -331,7 +331,7 @@ input:-moz-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .doticon {
   color: var(--text-color);
@@ -343,7 +343,7 @@ input:-moz-placeholder {
   align-items: center;
   margin-left: 50%;
   margin-right: 50%;
-  z-index: -1;
+  
   position: relative;
 }
 
@@ -353,5 +353,17 @@ input:-moz-placeholder {
   text-align: center;
   align-items: center;
   padding: 5px;
-  z-index: -1;
+  position: relative;
+ 
+}
+.show {
+ z-index: -1;
+ width: 1024px;
+ position: absolute;
+ align-content: center;
+ text-align: center;
+ align-items: center;
+ border-radius: 15px;
+ margin: auto;
+ justify-content: center;
 }
