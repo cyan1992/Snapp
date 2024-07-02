@@ -380,3 +380,13 @@ input:-moz-placeholder {
 .presuperapp {
   white-space: pre-wrap;
 }
+
+.imgitemsuperapp {
+  
+}
+
+.grid-item-supersnapp {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 20px;
+}
