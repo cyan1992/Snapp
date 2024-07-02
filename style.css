@@ -323,8 +323,8 @@ input:-moz-placeholder {
 
 .indicatorgroup {
   display: flex;
-  margin: auto;
-  background-color: rgba(24, 209, 0, 0.4);
+  margin: 0 auto;
+  background-color: rgba(245, 245, 245, 0.4);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -333,6 +333,9 @@ input:-moz-placeholder {
   text-align: center;
   position: absolute;
   bottom: 0;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
@@ -341,8 +344,7 @@ input:-moz-placeholder {
   height: 20px;
   text-align: center;
   align-items: center;
-  padding: 5px;
-
+  padding: 4px;
   bottom: 0;
   opacity: 1 !important;
   align-self: flex-end;
