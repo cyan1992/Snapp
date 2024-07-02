@@ -362,3 +362,21 @@ input:-moz-placeholder {
 }
 
 /* End Slider [Slideshow] in CSS */
+
+.superapp {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.snappappimg {
+  width: 50%;
+  height: auto;
+}
+
+.superapptexts {
+  padding: 20px;
+}
+
+.presuperapp {
+  white-space: pre-wrap;
+}
