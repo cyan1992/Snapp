@@ -287,7 +287,7 @@ input:-moz-placeholder {
   grid-template-rows: auto;
   gap: 30px;
   /* box-sizing: border-box; */
-  padding: 5px;
+  padding: 50px 5px;
   margin: auto;
   justify-content: center;
   background-color: var(--gray-color);
@@ -337,3 +337,21 @@ input:-moz-placeholder {
   color: var(--text-color);
 }
 
+.indicatorgroup {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  z-index: -1;
+  position: relative;
+}
+
+.indicator {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  z-index: -1;
+}
