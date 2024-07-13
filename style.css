@@ -4,7 +4,7 @@
   --white-color: #fff;
   --text-color: #4a4a4a;
   --bg-color: #21aa58;
-  --gray-color: #f2f5f8;
+  --light-gray: #f2f5f8;
 }
 
 /* Tarif Font Face */
@@ -290,7 +290,19 @@ input:-moz-placeholder {
   padding: 50px 5px;
   margin: auto;
   justify-content: center;
-  background-color: var(--gray-color);
+  background-color: var(--light-gray);
+}
+
+.grid-container-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  
+  /* box-sizing: border-box; */
+  padding: 0px 50px;
+  margin: 0px 30px;
+  justify-content: center;
+  background-color: var(--white-color);
 }
 
 .grid-item {
@@ -304,7 +316,7 @@ input:-moz-placeholder {
   text-align: center;
   font-weight: bold;
   color: var(--text-color);
-  background-color: var(--gray-color);
+  background-color: var(--light-gray);
   padding: 15px;
 }
 
@@ -382,11 +394,27 @@ input:-moz-placeholder {
 }
 
 .imgitemsuperapp {
-  
+  border-radius: 20px;
+  background-color: var(--light-gray);
 }
 
 .grid-item-supersnapp {
   box-sizing: border-box;
   display: inline-block;
   padding: 5px 20px;
+  margin: 20px;
+}
+
+.grid-item-supersnapp-box {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 50px;
+  border-radius: 20px;
+  width: auto;
+  height: 530px;
+
+}
+
+.grid__title {
+  padding: 20px 0px;
 }
