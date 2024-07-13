@@ -4,4 +4,6 @@ This project is simply an exercise using pure HTML and CSS.
 
 This project is suitable for those who have just started front-end development. You are allowed to view the code and only use my codes.
 
-Here's to good days ahead. Thank you.
+Here's to good days ahead. 
+Thank you.
+CYAN
