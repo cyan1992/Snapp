@@ -300,7 +300,8 @@ input:-moz-placeholder {
   
   /* box-sizing: border-box; */
   padding: 0px 50px;
-  margin: 0px 30px;
+  margin: 0 23px;
+  margin-top: -110px;
   justify-content: center;
   background-color: var(--white-color);
 }
@@ -408,13 +409,17 @@ input:-moz-placeholder {
 .grid-item-supersnapp-box {
   box-sizing: border-box;
   display: inline-block;
-  padding: 50px;
+  padding: 20px;
   border-radius: 20px;
-  width: auto;
+  width: 300px;
   height: 530px;
 
 }
 
 .grid__title {
   padding: 20px 0px;
+}
+
+.grid__paragraph {
+  font-size: 12px;
 }
