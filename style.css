@@ -423,3 +423,42 @@ input:-moz-placeholder {
 .grid__paragraph {
   font-size: 12px;
 }
+
+.driver_registration_group {
+  text-align: center;
+}
+
+.driver_registration_group__title {
+  font-size: 36px;
+  text-align: center;
+  color: var(--text-color);
+  font-family: 'IRANSansWebBold';
+  padding: 20px;
+}
+
+.driver_registration_group__paragraph {
+  font-size: 20px;
+  text-align: center;
+  color: var(--text-color);
+  padding: 10px;
+}
+
+.driver_registration_group__button {
+  background-color: var(--green-color);
+  width: 160px;
+  height: 46px;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 18px;
+  font-family: 'IRANSansWebBold';
+  border: transparent;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+/* 
+.driver_registration_group__video {
+  width: 1024px;
+  height: 576px;
+  border-radius: 10px;
+} */
