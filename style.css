@@ -470,3 +470,40 @@ input:-moz-placeholder {
   border-radius: 10px;
   padding: 20px, 0px, 30px, 0px;
 }
+
+.attributes {
+  background-color: var(--light-gray);
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  padding: 50px 160px;
+  
+}
+
+.attributes__card {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: var(--white-color);
+  padding: 40px 20px;
+  border-radius: 15px;
+  justify-items: center;
+}
+
+.attributes__card_icon {
+  width: 120px;
+  height: 66px;
+  padding: auto;
+  margin: auto;
+}
+
+.attributes__card__text__title {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.attributes__card__text__paragraph {
+  font-size: 14px;
+  padding: 10px;
+  font-family: 'IRANSansWebLight';
+}
