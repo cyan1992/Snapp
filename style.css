@@ -297,7 +297,7 @@ input:-moz-placeholder {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
-  
+
   /* box-sizing: border-box; */
   padding: 0px 50px;
   margin: 0 23px;
@@ -345,11 +345,10 @@ input:-moz-placeholder {
   width: 80px;
   text-align: center;
   position: absolute;
-   /* In Se Khat Vaghti Position Parent reletive hast va positon child absolute vasat chin mikone */
+  /* In Se Khat Vaghti Position Parent reletive hast va positon child absolute vasat chin mikone */
   bottom: 1%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .indicator {
@@ -362,16 +361,16 @@ input:-moz-placeholder {
 }
 
 .show {
- z-index: -1;
- width: 1024px;
- position: absolute;
- align-content: center;
- text-align: center;
- align-items: center;
- border-radius: 15px;
- margin: auto;
- justify-content: center;
- cursor: pointer;
+  z-index: -1;
+  width: 1024px;
+  position: absolute;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: auto;
+  justify-content: center;
+  cursor: pointer;
 }
 
 /* End Slider [Slideshow] in CSS */
@@ -413,7 +412,6 @@ input:-moz-placeholder {
   border-radius: 20px;
   width: 300px;
   height: 430px;
-
 }
 
 .grid__title {
@@ -436,7 +434,7 @@ input:-moz-placeholder {
   font-size: 36px;
   text-align: center;
   color: var(--text-color);
-  font-family: 'IRANSansWebBold';
+  font-family: "IRANSansWebBold";
   padding: 20px;
 }
 
@@ -454,7 +452,7 @@ input:-moz-placeholder {
   color: var(--white-color);
   text-align: center;
   font-size: 18px;
-  font-family: 'IRANSansWebBold';
+  font-family: "IRANSansWebBold";
   border: transparent;
   border-radius: 5px;
   margin: auto;
@@ -462,7 +460,7 @@ input:-moz-placeholder {
   cursor: pointer;
 }
 
-.driver_registration_group__button:hover{
+.driver_registration_group__button:hover {
   background-color: var(--bg-color);
 }
 
@@ -477,7 +475,6 @@ input:-moz-placeholder {
   grid-template-columns: auto auto;
   gap: 20px;
   padding: 50px 160px;
-  
 }
 
 .attributes__card {
@@ -505,7 +502,7 @@ input:-moz-placeholder {
 .attributes__card__text__paragraph {
   font-size: 14px;
   padding: 10px;
-  font-family: 'IRANSansWebLight';
+  font-family: "IRANSansWebLight";
 }
 
 .footer__menu {
@@ -518,12 +515,12 @@ input:-moz-placeholder {
 .footer__menu__link {
   cursor: pointer;
   padding: 10px;
-  font-family: 'IRANSansWebLight';
+  font-family: "IRANSansWebLight";
 }
 
 .footer__menu__socials {
- direction: ltr !important;
- text-align: center;
+  direction: ltr !important;
+  text-align: center;
 }
 
 .footer__menu__socials__icons {
@@ -531,4 +528,15 @@ input:-moz-placeholder {
   height: 32px;
   cursor: pointer;
   padding: 2px;
+}
+
+.certificates {
+  text-align: center;
+  padding: 20px;
+}
+
+.certificates__image {
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
 }
