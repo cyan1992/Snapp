@@ -507,3 +507,28 @@ input:-moz-placeholder {
   padding: 10px;
   font-family: 'IRANSansWebLight';
 }
+
+.footer__menu {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+}
+
+.footer__menu__link {
+  cursor: pointer;
+  padding: 10px;
+  font-family: 'IRANSansWebLight';
+}
+
+.footer__menu__socials {
+ direction: ltr !important;
+ text-align: center;
+}
+
+.footer__menu__socials__icons {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  padding: 2px;
+}
