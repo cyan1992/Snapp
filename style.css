@@ -429,6 +429,7 @@ input:-moz-placeholder {
   display: grid;
   justify-content: center;
   gap: 20px;
+  background-color: var(--light-gray);
 }
 
 .driver_registration_group__title {
@@ -461,6 +462,11 @@ input:-moz-placeholder {
   cursor: pointer;
 }
 
+.driver_registration_group__button:hover{
+  background-color: var(--bg-color);
+}
+
 .driver_registration_group__video {
   border-radius: 10px;
+  padding: 20px, 0px, 30px, 0px;
 }
