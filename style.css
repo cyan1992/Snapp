@@ -426,6 +426,9 @@ input:-moz-placeholder {
 
 .driver_registration_group {
   text-align: center;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
 }
 
 .driver_registration_group__title {
@@ -453,12 +456,11 @@ input:-moz-placeholder {
   font-family: 'IRANSansWebBold';
   border: transparent;
   border-radius: 5px;
-  margin: 20px;
+  margin: auto;
+  padding: 10px;
   cursor: pointer;
 }
-/* 
+
 .driver_registration_group__video {
-  width: 1024px;
-  height: 576px;
   border-radius: 10px;
-} */
+}
